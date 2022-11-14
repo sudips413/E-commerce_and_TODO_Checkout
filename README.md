@@ -13,7 +13,7 @@ Password:`Password123`
 ### How to Run
 ## FrontEnd Start
 1. run `npm install`
-2. goto client directory and run `npm start`
+2. goto client directory of E-commerce Website folder and run `npm start`
 
 ## JSON Server Run
 1. run `npm i json-serve`

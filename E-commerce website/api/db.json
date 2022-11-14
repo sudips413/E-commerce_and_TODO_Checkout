@@ -1,0 +1,211 @@
+{
+  "users": [
+    {
+      "id": "3c14215e-a753-ab16-81cc-3d0bfe26d649",
+      "name": "Sudip Shrestha",
+      "email": "testuser@gmail.com",
+      "password": "Password123",
+      "role": "user"
+    },
+    {
+      "id": "3c14215e-a753-ab16-81cc-3d0bfe26d649",
+      "name": "Admin1",
+      "email": "admin@gmail.com",
+      "password": "Admin123",
+      "role": "admin"
+    },
+    {
+      "id": "1cf02491-06a3-5469-e3bf-f4f316140b44",
+      "name": "Sudip Shrestha",
+      "email": "testuser2@gmail.com",
+      "password": "Admin1",
+      "role": "user",
+      "phone": "9860817106"
+    },
+    {
+      "id": "85ff99de-bbb5-a343-6a8e-2ebc80b2b5fe",
+      "name": "TestUser",
+      "email": "testuser3@gmail.com",
+      "password": "Admin3",
+      "role": "user",
+      "phone": "9860817106"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "T-shirt",
+      "url": "https://cdn.pixabay.com/photo/2013/07/13/14/07/apparel-162180_960_720.png",
+      "price": 3450,
+      "rating": "5",
+      "gender": "Male",
+      "category": "Clothing",
+      "description": "This is a T-shirt",
+      "stock": 10
+    },
+    {
+      "id": 2,
+      "title": "Backpack",
+      "url": "https://cdn.pixabay.com/photo/2016/11/23/18/12/bag-1854148_960_720.jpg",
+      "price": 3999,
+      "rating": 5,
+      "gender": "Unisex",
+      "category": "Accessories",
+      "description": "This is a Backpack",
+      "stock": 10
+    },
+    {
+      "id": 3,
+      "title": "Wallets",
+      "url": "https://cdn.pixabay.com/photo/2017/08/17/08/20/online-shopping-2650383_960_720.jpg",
+      "price": 2500,
+      "rating": 5,
+      "gender": "Male",
+      "category": "Accessories",
+      "description": "This is a Wallet",
+      "stock": 15
+    },
+    {
+      "id": 70,
+      "title": "Splitter",
+      "url": "https://cdn.pixabay.com/photo/2014/04/03/10/45/cord-311327_960_720.png",
+      "price": 999,
+      "rating": 5,
+      "gender": "Female",
+      "category": "Accessories",
+      "description": "This is a Splitter",
+      "stock": 10
+    },
+    {
+      "id": 5,
+      "title": "Samsung Galaxy S9",
+      "url": "https://cdn.pixabay.com/photo/2018/08/08/13/15/samsung-galaxy-note-9-3592152_960_720.png",
+      "price": 9999,
+      "rating": 5,
+      "category": "Electronics",
+      "description": "This is a Samsung Galaxy S9",
+      "stock": 10
+    },
+    {
+      "id": 60,
+      "title": "Leather Jacket",
+      "url": "https://cdn.pixabay.com/photo/2015/01/15/16/17/silhouette-600485_960_720.jpg",
+      "price": 7000,
+      "rating": 5,
+      "gender": "Male",
+      "category": "Clothing",
+      "description": "This is a Leather Jacket",
+      "stock": 10
+    },
+    {
+      "id": 6,
+      "title": "Leather Jacket",
+      "url": "https://cdn.pixabay.com/photo/2015/01/15/16/17/silhouette-600485_960_720.jpg",
+      "price": 7000,
+      "rating": 5,
+      "gender": "Female",
+      "category": "Clothing",
+      "description": "This is a Leather Jacket",
+      "stock": 10
+    },
+    {
+      "id": 4,
+      "title": "Leather Jacket",
+      "url": "https://cdn.pixabay.com/photo/2015/01/15/16/17/silhouette-600485_960_720.jpg",
+      "price": 7000,
+      "rating": 5,
+      "gender": "Male",
+      "category": "Clothing",
+      "description": "This is a Leather Jacket",
+      "stock": 10
+    },
+    {
+      "id": 56,
+      "title": "Jacket-Cotton",
+      "url": "https://cdn.pixabay.com/photo/2017/06/27/01/11/jacket-2445833_960_720.png",
+      "price": 9999,
+      "rating": 5,
+      "gender": "Male/Female",
+      "category": "Clothing",
+      "description": "This is a Jacket-Cotton",
+      "stock": 10
+    },
+    {
+      "id": 12,
+      "title": "Earphone",
+      "url": "https://cdn.pixabay.com/photo/2014/04/03/11/58/headphones-312746_960_720.png",
+      "price": 200,
+      "rating": 5,
+      "gender": "",
+      "category": "Electronics",
+      "description": "This is a Earphone",
+      "stock": 10
+    },
+    {
+      "id": 50,
+      "title": "Bag",
+      "url": "https://cdn.pixabay.com/photo/2016/11/23/18/12/bag-1854148_960_720.jpg",
+      "price": 8000,
+      "rating": 5,
+      "gender": "Female",
+      "category": "Accessories",
+      "description": "This is a Bag",
+      "stock": 10
+    },
+    {
+      "id": 40,
+      "title": "Hat",
+      "url": "https://cdn.pixabay.com/photo/2013/07/13/11/44/hat-158569_960_720.png",
+      "price": 9999,
+      "rating": 5,
+      "gender": "Male",
+      "category": "Accessories",
+      "description": "This is a Hat",
+      "stock": 10
+    },
+    {
+      "id": 5,
+      "title": "Bracelet-Diamond",
+      "url": "https://cdn.pixabay.com/photo/2013/07/13/13/53/diamond-161739_960_720.png",
+      "price": 9999,
+      "rating": 5,
+      "gender": "Unisex",
+      "category": "Accessories",
+      "description": "This is a Bracelet-Diamond",
+      "stock": 10
+    },
+    {
+      "id": 78,
+      "title": "CG LED TV(24 Inch)",
+      "url": "https://cdn.pixabay.com/photo/2015/07/18/10/01/tv-850191_960_720.png",
+      "price": 70000,
+      "rating": 5,
+      "gender": "",
+      "category": "Electronics",
+      "description": "This is a CG LED TV(24 Inch)",
+      "stock": 10
+    },
+    {
+      "id": 98,
+      "title": "Wallet and Bag",
+      "url": "https://cdn.pixabay.com/photo/2013/07/13/13/26/briefcase-161032_960_720.png",
+      "price": 500,
+      "rating": 5,
+      "gender": "Male-L/XL",
+      "category": "Accessories",
+      "description": "This is a Wallet and Bag",
+      "stock": 10
+    },
+    {
+      "id": 100,
+      "title": "Converse",
+      "url": "https://cdn.pixabay.com/photo/2013/07/12/18/20/shoes-153310_960_720.png",
+      "price": 9999,
+      "rating": 5,
+      "gender": "Unisex-XL",
+      "category": "Clothing",
+      "description": "This is a Converse",
+      "stock": 10
+    }
+  ]
+}

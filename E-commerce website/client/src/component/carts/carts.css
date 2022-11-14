@@ -1,0 +1,28 @@
+.btn{
+    margin-top: -10px;
+    
+}
+.table{
+    margin-top: 20px;
+    
+    
+}
+th{
+    color:rgb(167, 8, 66)
+}
+@media screen and (max-width: 700px){
+    
+    .btn{
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media screen and (min-width: 950px){
+    
+    .butt{
+        margin-left: -40px;
+    }
+}
+   
+    

@@ -1,0 +1,227 @@
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+    
+    flex-direction: row;
+    justify-content: center;
+    
+    align-items: center;   
+   
+    
+    
+    
+    
+
+
+}
+/* .category{   
+    
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    margin: auto;
+    margin-left: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 300px;
+    padding: 5px;
+    
+} */
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: rgb(174, 12, 12);
+    text-align: left;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    
+}
+
+.productCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    margin: auto;
+    margin-left: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 300px;
+    
+}
+.productCard img{
+    margin-top: 5px;
+    
+    object-fit: cover;
+    width: 298px;
+    height: 200px;
+    
+
+}
+
+.card:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transform: scale(1.07);
+    
+    transition: all 0.1s ease-in-out ;
+    
+    height: 500px;
+
+    
+    
+
+    
+}
+.card:hover .addtocart{
+    display: block;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer ;
+    text-align: center;
+    margin-bottom: -5px;
+    margin-left: 50px;
+    background-color: rgb(20, 23, 22);
+    font-size: 20px;
+    justify-content: center;
+}
+.card:hover .icons{
+    display: block;
+}
+.checked{
+    color: orange;
+}
+.addtocart{
+    display: none;
+}
+
+.cart-basket {
+    color: rgb(12, 44, 250);
+    
+}
+.cart-basket:hover{
+    color: rgb(12, 44, 250);
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+
+  .card {
+    
+    width: 27%;
+    height: 400px;
+    margin: 20px auto;
+    margin-bottom: 30px;
+    border: none;
+   
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+img{
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 400;
+}
+.cartcounter{
+   
+   position: fixed;
+   margin-left: 150px;
+    
+}
+
+.icons{
+    display: none;
+    position: absolute;
+    color: rgb(20, 14, 14);
+    font-size: 15px;
+    
+    
+    margin : 10px;
+    
+}
+.heart{
+    border: 1px solid rgb(12, 7, 7);
+    border-radius: 50%;
+    padding: 6px;
+    background-color: white;
+}
+.heart:hover{
+    color: red;
+}
+
+
+@media screen and (max-width: 1000px){
+    .product{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 100px;
+    }
+    /* .category{
+        margin: 2px 0;
+       
+        position: static;
+    } */
+    .productCard{
+        margin: 5px 0;
+    }
+    .card{
+        width: 80%;
+        margin-left: 80px;
+    }
+    .cartcounter{
+        margin-left: 0;
+    }
+    
+    
+}
+@media screen and (max-width: 467px){
+    .product{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    /* .category{
+        margin: 5px 0;
+        margin-left: 80px;
+        position: static;
+    } */
+    .productCard{
+        margin: 5px 0;
+    }
+    .card{
+        width: 80%;
+        
+    }
+    .cartcounter{
+        margin-left: 20px;
+    }
+    /* .cart{
+        margin-bottom: 100px;
+    } */
+}

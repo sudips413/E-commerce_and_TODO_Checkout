@@ -1,0 +1,79 @@
+.container{
+    text-align: center;
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+h1{
+    font-size: 2.5em;
+    font-weight: 600;
+    color: rgb(193, 8, 8);
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+span{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: rgb(38, 18, 18);
+    text-align: left;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    
+}
+a{
+    font: 1rem sans-serif;
+    margin: 0 auto;
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+a:hover{
+    text-decoration: none;
+}
+input{
+    text-align: left;
+    margin-left: 10px;
+    width: 90%;
+    height: 50px;
+    border: 2px solid rgb(115, 105, 105);
+    border-radius: 10px;
+    margin-top: 20px;    
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: rgb(8, 43, 69);    
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+button{
+    width: 70%;
+    height: 50px;
+    border: 2px solid rgb(115, 105, 105);
+    border-radius: 10px;
+    margin-top: 20px;    
+    margin-left: 10px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: rgb(8, 43, 69);    
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: rgb(193, 8, 8);
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.regbtn{
+    background-color: rgb(252, 252, 252);
+    color: rgb(14, 1, 1);
+}

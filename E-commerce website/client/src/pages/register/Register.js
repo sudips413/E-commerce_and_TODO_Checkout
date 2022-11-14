@@ -156,10 +156,10 @@ export default function Register() {
     
   
   return (
-    <div className="register" onSubmit={Register_handle}>
+    <div className="register" >
         <div className="container mt-5 col-lg-4 col-md-6 col-xs-6">
         <h1>SignUp</h1>
-        <form >
+        <form onSubmit={Register_handle}>
             <span>Full Name <bold>*</bold>
             </span>
             <input id= "name" type="text" placeholder="Enter your name" onChange={namevalidator} required/>
